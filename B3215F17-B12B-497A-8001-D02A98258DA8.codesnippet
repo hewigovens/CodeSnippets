@@ -3,27 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyLabel</string>
+	<string>sel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var &lt;#label name#&gt;: UILabel = {
-    let label = UILabel()
-    return label
-}()</string>
+	<string>#selector(&lt;#Action#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B1027297-965B-44A1-A0DD-9A8CB88F498C</string>
+	<string>B3215F17-B12B-497A-8001-D02A98258DA8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lzay UILabel</string>
+	<string>#selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

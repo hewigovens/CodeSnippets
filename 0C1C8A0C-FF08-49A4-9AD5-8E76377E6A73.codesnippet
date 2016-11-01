@@ -3,27 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyLabel</string>
+	<string>lzyTable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var &lt;#label name#&gt;: UILabel = {
-    let label = UILabel()
-    return label
+	<string>lazy var tableView: UITableView = {
+    let tableView = UITableView(frame: CGRect.zero, style: .Plain)
+    tableView.estimatedRowHeight = 64
+    tableView.rowHeight = UITableViewAutomaticDimension
+    tableView.backgroundColor = UIColor.whiteColor()
+    return tableView
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B1027297-965B-44A1-A0DD-9A8CB88F498C</string>
+	<string>0C1C8A0C-FF08-49A4-9AD5-8E76377E6A73</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lzay UILabel</string>
+	<string>lazy UITableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
