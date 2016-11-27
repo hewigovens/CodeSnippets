@@ -3,27 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyview</string>
+	<string>lzytable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIView *)&lt;#view#&gt;
+	<string>- (UITableView *)tableView
 {
-    if (!_&lt;#view#&gt;) {
-        UIView *view = [UIView new];
-        view.backgroundColor = [UIColor whiteColor];
-        _&lt;#view#&gt; = view;
+    if (!_tableView) {
+        UITableView *table = [[UITableView alloc] initWithFrame:CGRectZero];
+        table.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+        table.backgroundColor = [UIColor whiteColor];
+        table.separatorStyle = UITableViewCellSeparatorStyleNone;
+        table.tableFooterView = [UIView new];
+        _tableView = table;
     }
-    return _&lt;#view#&gt;;
+    return _tableView;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F67055B2-0925-4A93-9649-7C5189DFD2F4</string>
+	<string>6A2F2B91-D06D-4D4A-917F-8840C9D5F140</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Lazy UIView</string>
+	<string>Lazy UITableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

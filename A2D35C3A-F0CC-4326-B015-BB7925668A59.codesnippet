@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lzytextfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITextField *)&lt;#TextField#&gt;
+{
+    if (!_&lt;#TextField#&gt;) {
+        UITextField *field = [UITextField new];
+        [field setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
+        [field setDelegate:self];
+        [field setBorderStyle:UITextBorderStyleNone];
+        [field setAutocapitalizationType:UITextAutocapitalizationTypeNone];
+        [field setKeyboardType:UIKeyboardTypeEmailAddress];
+        [field setFont:[UIFont systemFontOfSize:16]];
+        [field setReturnKeyType:UIReturnKeyNext];
+        [field setClearButtonMode:UITextFieldViewModeWhileEditing];
+        [field setEnablesReturnKeyAutomatically:YES];
+        [field setBackgroundColor:[UIColor clearColor]];
+        [field setPlaceholder:@""];
+        [field setTextColor:[UIColor blackColor]];
+        _&lt;#TextField#&gt; = field;
+    }
+    return _&lt;#TextField#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A2D35C3A-F0CC-4326-B015-BB7925668A59</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Lazy UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
