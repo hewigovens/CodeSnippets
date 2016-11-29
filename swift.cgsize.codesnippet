@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sel</string>
+	<string>cgsi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#selector(&lt;#Action#&gt;)</string>
+	<string>CGSize(width: &lt;#width#&gt;, height: &lt;#height#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B3215F17-B12B-497A-8001-D02A98258DA8</string>
+	<string>in.fourplex.swift.cgsize</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#selector</string>
+	<string>CGSize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

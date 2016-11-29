@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nsl</string>
+	<string>lzyView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(@"&lt;#Message#&gt;", &lt;#Comment#&gt;)</string>
+	<string>lazy var &lt;#propery name#&gt;: UIView = {
+    let view = UIView()
+    return view
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC938C71-0F0A-4030-A2D3-2366AD1E445F</string>
+	<string>in.fourplex.swift.lazy.uiview</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>NSLocalizedString</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLocalizedString</string>
+	<string>lazy UIView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongself</string>
+	<string>lzyLabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong __typeof(&lt;#weakSelf#&gt;)strongSelf = &lt;#weakSelf#&gt;;</string>
+	<string>lazy var &lt;#label name#&gt;: UILabel = {
+    let label = UILabel()
+    return label
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6CCC82E3-27EA-4B61-AB22-A6CE75E559DE</string>
+	<string>in.fourplex.swift.lazy.uilabel</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>strong self</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strongself</string>
+	<string>lzay UILabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

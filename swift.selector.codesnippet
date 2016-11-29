@@ -3,26 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyImage</string>
+	<string>sel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var &lt;#image view#&gt;: UIImageView = {
-    let image = UIImageView()
-    image.clipsToBounds = true
-    image.contentMode = .ScaleAspectFill
-    return image
-}()</string>
+	<string>#selector(&lt;#Action#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24B78922-6B8B-48B3-AA5E-4A4147FF801E</string>
+	<string>in.fourplex.swift.selector</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lazy UIImageView</string>
+	<string>#selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

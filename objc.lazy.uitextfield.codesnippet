@@ -30,7 +30,7 @@
     return _&lt;#TextField#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A2D35C3A-F0CC-4326-B015-BB7925668A59</string>
+	<string>in.fourplex.objc.lazy.uitextfield</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
@@ -38,6 +38,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -24,7 +24,7 @@
     return _&lt;#button#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0112CC37-01CF-445D-9A4E-DDAAE5CC69F1</string>
+	<string>in.fourplex.objc.lazy.uibutton</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
@@ -32,6 +32,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

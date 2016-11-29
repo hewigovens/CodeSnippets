@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>lzyButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>lazy var &lt;#button#&gt;: UIButton = {
+    let button = UIButton(type: .Custom)
+    return button
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D797CCF3-7FB5-4BE5-8123-D5EA08D11177</string>
+	<string>in.fourplex.swift.lazy.uibutton</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>pragma mark</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragma mark</string>
+	<string>lazy UIButton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

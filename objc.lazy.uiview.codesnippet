@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyButton</string>
+	<string>lzyview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var &lt;#button#&gt;: UIButton = {
-    let button = UIButton(type: .Custom)
-    return button
-}()</string>
+	<string>- (UIView *)&lt;#view#&gt;
+{
+    if (!_&lt;#view#&gt;) {
+        UIView *view = [UIView new];
+        view.backgroundColor = [UIColor whiteColor];
+        _&lt;#view#&gt; = view;
+    }
+    return _&lt;#view#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9B03D7E-9402-47D0-835E-E4EBBBFB57CE</string>
+	<string>in.fourplex.objc.lazy.uiview</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lazy UIButton</string>
+	<string>Lazy UIView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

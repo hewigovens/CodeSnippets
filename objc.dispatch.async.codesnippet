@@ -3,25 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyTable</string>
+	<string>async</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>StringOrComment</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var tableView: UITableView = {
-    let tableView = UITableView(frame: CGRect.zero, style: .Plain)
-    tableView.estimatedRowHeight = 64
-    tableView.rowHeight = UITableViewAutomaticDimension
-    tableView.backgroundColor = UIColor.whiteColor()
-    return tableView
-}()</string>
+	<string>dispatch_async(dispatch_get_global_queue(&lt;#dispatch_queue_priority_t priority#&gt;, &lt;#unsigned long flags#&gt;), ^(void) {
+    &lt;#code#&gt;
+    
+    dispatch_async(dispatch_get_main_queue(), ^(void) {
+        &lt;#code#&gt;
+    });
+});
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0C1C8A0C-FF08-49A4-9AD5-8E76377E6A73</string>
+	<string>in.fourplex.objc.dispatch.async</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>dispatch async</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lazy UITableView</string>
+	<string>dispatch_async</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

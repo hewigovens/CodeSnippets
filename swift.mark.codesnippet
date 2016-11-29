@@ -3,22 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lzyprop</string>
+	<string>_mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>lazy var &lt;#property name#&gt;: &lt;#property type#&gt; = {
-    let &lt;#property name#&gt; = &lt;#property type#&gt;()
-    return &lt;#property name#&gt;
-}()</string>
+	<string>// MARK: - &lt;#Section#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B5CCE842-6D18-4903-8571-9A66F8805589</string>
+	<string>in.fourplex.swift.mark</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lzay Property</string>
+	<string>Swift MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
