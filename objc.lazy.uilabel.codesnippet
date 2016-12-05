@@ -15,6 +15,7 @@
         UILabel *label = [[UILabel alloc] init];
         label.textColor = [UIColor blackColor];
         label.font = [UIFont systemFontOfSize:17];
+        label.numberOfLines = 0;
         _&lt;#label#&gt; = label;
     }
     return _&lt;#label#&gt;;

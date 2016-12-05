@@ -11,6 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#label name#&gt;: UILabel = {
     let label = UILabel()
+    label.numberOfLines = 0
     return label
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>
