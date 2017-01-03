@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIButton *)&lt;#button#&gt;
-{
+	<string>- (UIButton *)&lt;#button#&gt; {
     if (!_&lt;#button#&gt;) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
@@ -19,7 +18,7 @@
         [button addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
          button.titleLabel.font = [UIFont systemFontOfSize:18];
          button.layer.cornerRadius = 2;
-        _&lt;#button#&gt; = button;
+         _&lt;#button#&gt; = button;
     }
     return _&lt;#button#&gt;;
 }</string>
