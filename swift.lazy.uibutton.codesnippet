@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#button#&gt;: UIButton = {
-    let button = UIButton(type: .Custom)
+    let button = UIButton(type: .custom)
     return button
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>

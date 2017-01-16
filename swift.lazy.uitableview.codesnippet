@@ -10,10 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var tableView: UITableView = {
-    let tableView = UITableView(frame: CGRect.zero, style: .Plain)
+    let tableView = UITableView(frame: CGRect.zero, style: .plain)
     tableView.estimatedRowHeight = 64
     tableView.rowHeight = UITableViewAutomaticDimension
-    tableView.backgroundColor = UIColor.whiteColor()
+    tableView.backgroundColor = UIColor.white
     return tableView
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>

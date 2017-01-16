@@ -12,7 +12,7 @@
 	<string>lazy var &lt;#image view#&gt;: UIImageView = {
     let image = UIImageView()
     image.clipsToBounds = true
-    image.contentMode = .ScaleAspectFill
+    image.contentMode = .scaleAspectFill
     return image
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>
